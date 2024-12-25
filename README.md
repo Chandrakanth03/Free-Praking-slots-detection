@@ -3,11 +3,9 @@
 ## Overview
 This project leverages OpenCV for detecting free parking slots and integrates it with a web interface using Streamlit. The goal is to provide a real-time solution for parking space management, where users can upload parking lot images or videos and view the number of available spaces directly on a web-based platform.
 
-![Parking Slot Detection](./image![screencapture-localhost-8501-2024-12-26-01_19_44](https://github.com/user-attachments/assets/0877c69e-19c0-423e-abc6-13eece6fba00)
-s/parking-slot.png)
+[Parking Slot Detection  first web page]([screencapture-localhost-8501-2024-12-26-01_19_44](https://github.com/user-attachments/assets/0877c69e-19c0-423e-abc6-13eece6fba00)
 
-![Parking Slot Detection](./images/![screencapture-localhost-8501-2024-12-26-01_18_58](https://github.com/user-attachments/assets/44bc96ca-3069-4173-9f8a-752875c4f51e)
-parking-slot.png)
+[Parking Slot Detection second web page] ([screencapture-localhost-8501-2024-12-26-01_18_58](https://github.com/user-attachments/assets/44bc96ca-3069-4173-9f8a-752875c4f51e)
 
 ## Features
 - Real-time detection of free parking slots in parking lot images and videos.
