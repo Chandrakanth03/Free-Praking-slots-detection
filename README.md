@@ -31,11 +31,14 @@ To set up the project on your local machine, follow these steps:
    streamlit run app.py
 This will launch the application on your local server.
 
-##Usage
+##Usage:
 
 1.Open the web application in your browser (default URL: http://localhost:8501).
+
 2.Use the web interface to upload parking lot images or videos.
+
 3.The application will automatically detect the free parking slots and display the number of available spaces.
+
 4.The visual representation will highlight the free and occupied slots in the uploaded media.
 
 ##Why This Project Matters
