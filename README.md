@@ -1,56 +1,54 @@
-# Free Slot Detection Using OpenCV
+Free Slot Detection Using OpenCV and Streamlit
+Overview
+This project leverages OpenCV for detecting free parking slots and integrates it with a web interface using Streamlit. The goal is to provide a real-time solution for parking space management, where users can upload parking lot images or videos and view the number of available spaces directly on a web-based platform.
 
-## Overview
-This project utilizes OpenCV to detect free parking slots in a designated area. The aim is to provide a real-time solution for parking space management, making it easier for drivers to find available spots.
-
-## Features
-- Real-time detection of free parking slots.
-- Visual representation of detected slots.
-- User-friendly interface for monitoring available spaces.
-
-## Technologies Used
-- Python
-- OpenCV
-- NumPy
-
-## Installation
+Features
+Real-time detection of free parking slots in parking lot images and videos.
+Interactive web interface for uploading images and videos.
+Visual representation of free and occupied parking slots.
+Displays the count of free parking slots.
+Easy integration with user-uploaded content for dynamic slot detection.
+Technologies Used
+Python
+OpenCV
+NumPy
+Streamlit
+Installation
 To set up the project on your local machine, follow these steps:
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/REPO-NAME.git
-   cd REPO-NAME
-2.Install the required dependencies:
-pip install opencv-python numpy
+Clone the repository:
 
+bash
+Copy code
+git clone https://github.com/YOUR-USERNAME/REPO-NAME.git
+cd REPO-NAME
+Install the required dependencies:
 
-3.Run the project:
-python free_slot_detection.py
+bash
+Copy code
+pip install opencv-python numpy streamlit
+Run the project:
+
+bash
+Copy code
+streamlit run app.py
+This will launch the application on your local server.
 
 Usage
-1.Make sure your camera is set up to capture the parking area.
-2.Run the free_slot_detection.py script to start detecting available slots.
-3.The output will display the parking slots with a visual indication of free and occupied slots.
-
-
+Open the web application in your browser (default URL: http://localhost:8501).
+Use the web interface to upload parking lot images or videos.
+The application will automatically detect the free parking slots and display the number of available spaces.
+The visual representation will highlight the free and occupied slots in the uploaded media.
 Contributing
-
 Contributions are welcome! If you have suggestions for improvements or features, feel free to create an issue or submit a pull request.
 
 License
-
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Acknowledgments
-
-. OpenCV documentation for image processing techniques.
-. Inspiration from various computer vision projects.
-
-
+OpenCV documentation for image processing techniques.
+Streamlit documentation for building interactive web applications.
+Inspiration from various computer vision projects.
 Instructions
-- Replace `Chandrakanth03` and `Detecting-free-praking-slots-using-openCV` with your actual GitHub username and repository name.
-- Feel free to add more sections if needed, such as a demo or screenshots, to showcase your project better.
-
-You can create a new file named `README.md` in your project directory and paste this content into it. Let me know if you need any modifications!
-
-
+Replace YOUR-USERNAME and REPO-NAME with your actual GitHub username and repository name.
+Add more sections if necessary, such as a demo or screenshots, to showcase the functionality of the web interface.
